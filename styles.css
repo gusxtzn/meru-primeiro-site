@@ -4,6 +4,8 @@ card-container {
 
     display: flex;   /* Centraliza o card no meio da página */ 
 
+    text-align: center; /* centralizar o text */
+
     justify-content: center;   /* Centraliza o card no meio da página */ 
 
   }
