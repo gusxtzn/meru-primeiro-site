@@ -78,6 +78,19 @@
     Futura</h1>
 <font>
 
+    <script>
+function openPage() {//SO ABRE A PÁGINA SE POR UM NOME EM SEU NICK!
+  var input = document.getElementById("placeholder").value;
+
+  if (input !== "") {
+    window.open("./index2.html");
+  } else {
+    alert("VOCÊ PRECISA POR UM NOME!");
+  }
+}
+</script>
+    <input type="text" id="placeholder" placeholder="SEU NICK!"style="border-radius: 5px;">
+    <button onclick="openPage()">ENTER</button>
 <div class="card-container">
   <div class="card-round">
     <div class="card-content">
@@ -88,7 +101,7 @@
     </div>
   </div>
 </div>
-
+       
   </div> 
         </form>       
   </div>
