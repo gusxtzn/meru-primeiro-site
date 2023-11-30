@@ -67,9 +67,9 @@
 
       border-radius: 2.9%;     /* Deixa os cantos arredondados*/  
 
-      width: "match_parent";     /* Define a largura do card*/  
+      width: 100%;     /* Define a largura do card*/  
 
-      height: "match_parent";     /* Define a altura do card*/  
+      height: 100%;     /* Define a altura do card*/  
 
       background-color:#303030;     /* Cor de fundo do card*/  
 
