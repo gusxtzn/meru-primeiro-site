@@ -1,12 +1,11 @@
-
--->
 <html>
     <head>
         <title>Web Site</title>
             <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SITE.R3SK</title>
+    <title>DevWeb</title>
+        <link rel="stylesheet" href="./styles.css">
 <script src="https://cdn.rawgit.com/bungfrangki/efeksalju/2a7805c7/efek-salju.js" type="text/javascript"> </script><br><br><br>
     <style>
     
@@ -24,16 +23,7 @@
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         }
 
-                div{
-            background-color: rgba(255, 255, 255, 0);
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-            padding: 80px;
-            border-radius: 15px;
-            color: #fff;
-        }
+
         
         html {
     scroll-behavior: smooth;
@@ -82,6 +72,12 @@ li {
 h1 {
     margin: 0;
     padding: 10px;
+}
+
+img {
+
+top: 10; 
+
 }
 
 button {
@@ -148,25 +144,52 @@ button:hover {
     <body>
         <nav>
         
-            <div 
-            class="logo">
+     <div class="logo">
                 
             </div>
-            <button onclick="abrirMenu()">&#9776;</button>
+     <button onclick="abrirMenu()">&#9776;</button>
             <ul id="botoesMenu">
                 <a href="https://animesbr.cc/">
                     <li>
                         <p>Animes br online</p>
                     </li>
                 </a>
+                
+<a href="https://youtube.com">
+                    <li>
+<p>Youtube</p>
+                    </li>
+                </a>
+
+<a href="https://lermanga.org/">
+                    <li>
+<p>Mangá's</p>
+                    </li>
+                </a>
+                
+                
+<a href="https://seriesflixtv.to/">
+                    <li>
+<p>Filmes / Séries Grátis</p>
+                    </li>
+                </a>
+                
+                
+<a href="https://xvídeos.com/">
+                    <li>
+<p>Surpresa...</p>
+                    </li>
+                </a>
+                
+<a href="https://www.hentaistube.com/">
+                    <li>
+<p>Hentai Online</p>
+                    </li>
+                </a>
+                
             </ul>
         </nav>
     <div>  
-        
-<p>
-  Reset Site
-  <a>© by Gustavo</a>.
-</p>
 
         </div> 
 
@@ -184,5 +207,38 @@ button:hover {
                 botoesMenu.className = botoesMenu.className.includes('responsivo') ? '' : 'responsivo'
             }
         </script>
+<br>        <br>
+    <div class="perfil-container">
+  <div class="perfil-round">
+    <div class="perfil-content">
+      <!-- Aqui você coloca o conteúdo do seu card -->    
+        
+  <img src="./html/img/perfil.jpg" width="150" height="150">
+  
+      </div>
+  </div>
+</div>
+
+<br>
+
+<div class="info-container">
+  <div class="info-round">
+    <div class="info-content">
+      <!-- Aqui você coloca o conteúdo do seu card -->
+      <p style="font-size: 8px;">Estou muito feliz por ter aprendido o básico de HTML e CSS e criar meu próprio site. Foi um processo desafiador, mas também gratificante. Aprendi muitas coisas novas sobre programação web e como usar esses conhecimentos para criar algo útil.
+
+Agora que tenho uma base sólida em HTML e CSS, estou ansioso para começar a trabalhar em melhorias no meu site. Quero adicionar recursos interessantes, como animações, formulários interativos e outras funcionalidades que tornem o site ainda mais atraente para os visitantes. Além disso, quero melhorar a usabilidade do site para torná-lo mais fácil de navegar.
+
+No futuro, pretendo continuar aprendendo novas tecnologias web para melhorar meus sites ainda mais. Estou ansioso para ver onde isso vai me levar!</p>
+    <p style="font-size: 10px;">
+  <a href="https://github.com/gusxtzn">© Github do desenvolvedor</a>
+</p>
+   
+       </div>
+  </div>
+</div>
+
+
+  
     </body>
 </html>
