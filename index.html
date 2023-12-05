@@ -57,6 +57,7 @@
         text-align:center;
         }
         
+        
         h1{
         font-size:26pt;
         text-align:center;
@@ -86,21 +87,27 @@
           <font color= "red">
         <p>Faça seu registro!<p>
    <font>
-   
-          <script>
-function openPage() {//SO ABRE A PÁGINA SE POR UM NOME EM SEU NICK!
-  var input = document.getElementById("placeholder").value;
 
-  if (input !== "") {
+<script>
+  function openPage() {//Sistema De Login
+  var input = document.getElementById("placeholder").value;
+  
+  var input2 = document.getElementById("placeholder2").value;
+
+  if (input === "Gustavo") {
+  if (input2 === "z") {
     window.open("./index2.html");
+ } else {
+    alert("Senha incorreta, entre em contato com o desenvolvidor.");
+  }
   } else {
-    alert("VOCÊ PRECISA POR UM NOME!");
+    alert("Usuário incorreto, entre em contato com o desenvolvidor.");
   }
 }
 </script>
     <input type="text" id="placeholder" placeholder="Digite seu nome de usuário"style="border-radius: 4px;"><br>
     <br>
-        <input type="password" id="placeholder" placeholder="Digite sua senha!"style="border-radius: 4px;"><br><br>
+        <input type="password" id="placeholder2" placeholder="Digite sua senha!"style="border-radius: 4px;"><br><br>
     
     <button onclick="openPage()">Continuar</button>
     <br>
@@ -114,4 +121,4 @@ function openPage() {//SO ABRE A PÁGINA SE POR UM NOME EM SEU NICK!
 
   </div> 
         </form>       
-        </div>
+    </div>
